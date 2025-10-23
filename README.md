@@ -110,5 +110,5 @@ node –watch src/server.js
 ```bash 
 "run-migration": "npx sequelize db:migrate"
 
-
+Vercel: https://projeto-pratico-one.vercel.app/
 A API estará disponível em `http://localhost:3000`.
