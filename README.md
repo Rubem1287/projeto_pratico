@@ -1,6 +1,6 @@
 # projeto_pratico
 
-#Cadastra um administrador e um colaborador
+#Cadastra um administrador, colaborador e também faz login de ambos
 
 ---
 
