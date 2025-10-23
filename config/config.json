@@ -1,0 +1,36 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "postgres",
+    "database": "projeto_pratico",
+    "host": "localhost",
+    "port": 5432,
+    "dialect": "postgres",
+    "logging": true,
+    "dialectOptions": {
+      "connectTimeout": 30000
+    },
+    "pool": {
+      "max": 5,
+      "min": 0,
+      "acquire": 30000,
+      "idle": 10000
+    }
+  },
+  "test": {
+    "username": "postgres",
+    "password": "postgres",
+    "database": "projeto_pratico_test",
+    "host": "localhost",
+    "port": 5432,
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "postgres",
+    "database": "projeto_pratico_prod",
+    "host": "localhost",
+    "port": 5432,
+    "dialect": "postgres"
+  }
+}
