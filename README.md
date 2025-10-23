@@ -12,7 +12,7 @@
 
 ## Caso de sucesso
 
-1. ✅ Recebe uma requisição do tipo **GET** na rota ("/users", getAllUser), retorna todos usuários cadastrado no banco de dados ;
+1. ✅ Recebe uma requisição do tipo **GET** na rota ("/users", getAllUsers), retorna todos usuários cadastrado no banco de dados ;
 
 2. ✅ Envia uma requisição Post para salvar um usuário no banco ("/cadastrar", createUser), cria um usuário e salva no banco de dados;
 
